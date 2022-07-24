@@ -1211,15 +1211,15 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Efortmeyer-Polar-Stock-Validation-TypeValidation.html#property_value"
         },                {
-            "fqsen": "\\Efortmeyer\\Polar\\Utils\\HtmlEncoder",
+            "fqsen": "\\Efortmeyer\\Polar\\Core\\Rendering\\HtmlEncoder",
             "name": "HtmlEncoder",
             "summary": "Provides\u0020a\u0020way\u0020to\u0020sanitize\u0020a\u0020template\u0027s\u0020variables.",
-            "url": "classes/Efortmeyer-Polar-Utils-HtmlEncoder.html"
+            "url": "classes/Efortmeyer-Polar-Core-Rendering-HtmlEncoder.html"
         },                {
-            "fqsen": "\\Efortmeyer\\Polar\\Utils\\HtmlEncoder\u003A\u003AencodeProperties\u0028\u0029",
+            "fqsen": "\\Efortmeyer\\Polar\\Core\\Rendering\\HtmlEncoder\u003A\u003AencodeProperties\u0028\u0029",
             "name": "encodeProperties",
             "summary": "Recursively\u0020and\u0020immutably\u0020encodes\u0020the\u0020object\u0027s\u0020members.",
-            "url": "classes/Efortmeyer-Polar-Utils-HtmlEncoder.html#method_encodeProperties"
+            "url": "classes/Efortmeyer-Polar-Core-Rendering-HtmlEncoder.html#method_encodeProperties"
         },                {
             "fqsen": "\\",
             "name": "\\",
@@ -1325,10 +1325,5 @@ Search.appendIndex(
             "name": "Validation",
             "summary": "",
             "url": "namespaces/efortmeyer-polar-stock-validation.html"
-        },                {
-            "fqsen": "\\Efortmeyer\\Polar\\Utils",
-            "name": "Utils",
-            "summary": "",
-            "url": "namespaces/efortmeyer-polar-utils.html"
         }            ]
 );
