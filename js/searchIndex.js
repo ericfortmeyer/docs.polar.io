@@ -963,8 +963,13 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Efortmeyer\\Polar\\Stock\\AutomaticDateField",
             "name": "AutomaticDateField",
-            "summary": "Represents\u0020a\u0020date\u0020field.",
+            "summary": "Represents\u0020a\u0020date\u0020field\u0020with\u0020and\u0020automatically\ngenerated\u0020value.",
             "url": "classes/Efortmeyer-Polar-Stock-AutomaticDateField.html"
+        },                {
+            "fqsen": "\\Efortmeyer\\Polar\\Stock\\AutomaticDateField\u003A\u003A\u0024formControlType",
+            "name": "formControlType",
+            "summary": "",
+            "url": "classes/Efortmeyer-Polar-Stock-AutomaticDateField.html#property_formControlType"
         },                {
             "fqsen": "\\Efortmeyer\\Polar\\Stock\\DateField",
             "name": "DateField",
