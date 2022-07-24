@@ -161,31 +161,6 @@ Search.appendIndex(
             "summary": "Returns\u0020a\u0020list\u0020of\u0020items.",
             "url": "classes/Efortmeyer-Polar-Api-DataStorage-CollectionStorageInterface.html#method_list"
         },                {
-            "fqsen": "\\Efortmeyer\\Polar\\Api\\DataStorage\\CsvFileStorage",
-            "name": "CsvFileStorage",
-            "summary": "Use\u0020to\u0020interact\u0020with\u0020a\u0020CSV\u0020file\u0027s\u0020data.",
-            "url": "classes/Efortmeyer-Polar-Api-DataStorage-CsvFileStorage.html"
-        },                {
-            "fqsen": "\\Efortmeyer\\Polar\\Api\\DataStorage\\CsvFileStorage\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/Efortmeyer-Polar-Api-DataStorage-CsvFileStorage.html#method___construct"
-        },                {
-            "fqsen": "\\Efortmeyer\\Polar\\Api\\DataStorage\\CsvFileStorage\u003A\u003A__destruct\u0028\u0029",
-            "name": "__destruct",
-            "summary": "",
-            "url": "classes/Efortmeyer-Polar-Api-DataStorage-CsvFileStorage.html#method___destruct"
-        },                {
-            "fqsen": "\\Efortmeyer\\Polar\\Api\\DataStorage\\CsvFileStorage\u003A\u003Asave\u0028\u0029",
-            "name": "save",
-            "summary": "Saves\u0020a\u0020record\u0020to\u0020a\u0020CSV\u0020file.",
-            "url": "classes/Efortmeyer-Polar-Api-DataStorage-CsvFileStorage.html#method_save"
-        },                {
-            "fqsen": "\\Efortmeyer\\Polar\\Api\\DataStorage\\CsvFileStorage\u003A\u003Alist\u0028\u0029",
-            "name": "list",
-            "summary": "Returns\u0020a\u0020list\u0020of\u0020records\u0020from\u0020a\u0020CSV\u0020file.",
-            "url": "classes/Efortmeyer-Polar-Api-DataStorage-CsvFileStorage.html#method_list"
-        },                {
             "fqsen": "\\Efortmeyer\\Polar\\Api\\InMemoryAppConfig",
             "name": "InMemoryAppConfig",
             "summary": "Provides\u0020an\u0020in\u0020memory\u0020interface\u0020for\u0020configuration\u0020the\u0020application.",
@@ -1211,6 +1186,31 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Efortmeyer-Polar-Stock-Validation-TypeValidation.html#property_value"
         },                {
+            "fqsen": "\\Efortmeyer\\Polar\\Stock\\DataStorage\\CsvFileStorage",
+            "name": "CsvFileStorage",
+            "summary": "Use\u0020to\u0020interact\u0020with\u0020a\u0020CSV\u0020file\u0027s\u0020data.",
+            "url": "classes/Efortmeyer-Polar-Stock-DataStorage-CsvFileStorage.html"
+        },                {
+            "fqsen": "\\Efortmeyer\\Polar\\Stock\\DataStorage\\CsvFileStorage\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/Efortmeyer-Polar-Stock-DataStorage-CsvFileStorage.html#method___construct"
+        },                {
+            "fqsen": "\\Efortmeyer\\Polar\\Stock\\DataStorage\\CsvFileStorage\u003A\u003A__destruct\u0028\u0029",
+            "name": "__destruct",
+            "summary": "",
+            "url": "classes/Efortmeyer-Polar-Stock-DataStorage-CsvFileStorage.html#method___destruct"
+        },                {
+            "fqsen": "\\Efortmeyer\\Polar\\Stock\\DataStorage\\CsvFileStorage\u003A\u003Asave\u0028\u0029",
+            "name": "save",
+            "summary": "Saves\u0020a\u0020record\u0020to\u0020a\u0020CSV\u0020file.",
+            "url": "classes/Efortmeyer-Polar-Stock-DataStorage-CsvFileStorage.html#method_save"
+        },                {
+            "fqsen": "\\Efortmeyer\\Polar\\Stock\\DataStorage\\CsvFileStorage\u003A\u003Alist\u0028\u0029",
+            "name": "list",
+            "summary": "Returns\u0020a\u0020list\u0020of\u0020records\u0020from\u0020a\u0020CSV\u0020file.",
+            "url": "classes/Efortmeyer-Polar-Stock-DataStorage-CsvFileStorage.html#method_list"
+        },                {
             "fqsen": "\\Efortmeyer\\Polar\\Core\\Rendering\\HtmlEncoder",
             "name": "HtmlEncoder",
             "summary": "Provides\u0020a\u0020way\u0020to\u0020sanitize\u0020a\u0020template\u0027s\u0020variables.",
@@ -1320,6 +1320,11 @@ Search.appendIndex(
             "name": "Stock",
             "summary": "",
             "url": "namespaces/efortmeyer-polar-stock.html"
+        },                {
+            "fqsen": "\\Efortmeyer\\Polar\\Stock\\DataStorage",
+            "name": "DataStorage",
+            "summary": "",
+            "url": "namespaces/efortmeyer-polar-stock-datastorage.html"
         },                {
             "fqsen": "\\Efortmeyer\\Polar\\Stock\\Validation",
             "name": "Validation",
