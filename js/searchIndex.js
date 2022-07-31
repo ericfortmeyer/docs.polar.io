@@ -61,36 +61,6 @@ Search.appendIndex(
             "summary": "Makes\u0020the\u0020Attribute\u0020callable.",
             "url": "classes/Efortmeyer-Polar-Api-Attributes-AttributeInterface.html#method___invoke"
         },                {
-            "fqsen": "\\Efortmeyer\\Polar\\Api\\Attributes\\Config\\AttributeConfigInterface",
-            "name": "AttributeConfigInterface",
-            "summary": "Provides\u0020a\u0020way\u0020to\u0020retrieve\nmetadata\u0020for\u0020an\u0020attribute.",
-            "url": "classes/Efortmeyer-Polar-Api-Attributes-Config-AttributeConfigInterface.html"
-        },                {
-            "fqsen": "\\Efortmeyer\\Polar\\Api\\Attributes\\Config\\AttributeConfigInterface\u003A\u003AgetConstructorArgType\u0028\u0029",
-            "name": "getConstructorArgType",
-            "summary": "Provides\u0020the\u0020contructor\u0020argument\u0020type.",
-            "url": "classes/Efortmeyer-Polar-Api-Attributes-Config-AttributeConfigInterface.html#method_getConstructorArgType"
-        },                {
-            "fqsen": "\\Efortmeyer\\Polar\\Api\\Attributes\\Config\\AttributeConfigInterface\u003A\u003AgetClassNameForDefaultAttribute\u0028\u0029",
-            "name": "getClassNameForDefaultAttribute",
-            "summary": "Provides\u0020the\u0020class\u0020name\u0020for\u0020the\u0020default\u0020attribute.",
-            "url": "classes/Efortmeyer-Polar-Api-Attributes-Config-AttributeConfigInterface.html#method_getClassNameForDefaultAttribute"
-        },                {
-            "fqsen": "\\Efortmeyer\\Polar\\Api\\Attributes\\Config\\AttributeConfigInterface\u003A\u003AgetConstructorArgTypeForDefault\u0028\u0029",
-            "name": "getConstructorArgTypeForDefault",
-            "summary": "Provides\u0020the\u0020contructor\u0020argument\u0020type\u0020for\u0020the\u0020default\u0020attribute.",
-            "url": "classes/Efortmeyer-Polar-Api-Attributes-Config-AttributeConfigInterface.html#method_getConstructorArgTypeForDefault"
-        },                {
-            "fqsen": "\\Efortmeyer\\Polar\\Api\\Attributes\\Config\\AttributeConfigInterface\u003A\u003AforType\u0028\u0029",
-            "name": "forType",
-            "summary": "Use\u0020to\u0020determine\u0020if\u0020the\u0020attribute\u0020is\u0020for\u0020a\u0020specified\u0020type.",
-            "url": "classes/Efortmeyer-Polar-Api-Attributes-Config-AttributeConfigInterface.html#method_forType"
-        },                {
-            "fqsen": "\\Efortmeyer\\Polar\\Api\\Attributes\\Config\\AttributeConfigInterface\u003A\u003AisConfiguredForClass\u0028\u0029",
-            "name": "isConfiguredForClass",
-            "summary": "Use\u0020to\u0020deterimine\u0020if\u0020the\u0020attribute\u0020is\u0020configured\u0020for\u0020any\u0020class.",
-            "url": "classes/Efortmeyer-Polar-Api-Attributes-Config-AttributeConfigInterface.html#method_isConfiguredForClass"
-        },                {
             "fqsen": "\\Efortmeyer\\Polar\\Api\\Attributes\\Config\\Collection",
             "name": "Collection",
             "summary": "Use\u0020to\u0020register\u0020attribute\u0020configurations.",
@@ -1480,6 +1450,36 @@ Search.appendIndex(
             "name": "UKNOWN_TYPE",
             "summary": "",
             "url": "classes/Efortmeyer-Polar-Stock-Attributes-Messages.html#constant_UKNOWN_TYPE"
+        },                {
+            "fqsen": "\\Efortmeyer\\Polar\\Core\\Attributes\\Config\\AttributeConfigInterface",
+            "name": "AttributeConfigInterface",
+            "summary": "Provides\u0020a\u0020way\u0020to\u0020retrieve\nmetadata\u0020for\u0020an\u0020attribute.",
+            "url": "classes/Efortmeyer-Polar-Core-Attributes-Config-AttributeConfigInterface.html"
+        },                {
+            "fqsen": "\\Efortmeyer\\Polar\\Core\\Attributes\\Config\\AttributeConfigInterface\u003A\u003AgetConstructorArgType\u0028\u0029",
+            "name": "getConstructorArgType",
+            "summary": "Provides\u0020the\u0020contructor\u0020argument\u0020type.",
+            "url": "classes/Efortmeyer-Polar-Core-Attributes-Config-AttributeConfigInterface.html#method_getConstructorArgType"
+        },                {
+            "fqsen": "\\Efortmeyer\\Polar\\Core\\Attributes\\Config\\AttributeConfigInterface\u003A\u003AgetClassNameForDefaultAttribute\u0028\u0029",
+            "name": "getClassNameForDefaultAttribute",
+            "summary": "Provides\u0020the\u0020class\u0020name\u0020for\u0020the\u0020default\u0020attribute.",
+            "url": "classes/Efortmeyer-Polar-Core-Attributes-Config-AttributeConfigInterface.html#method_getClassNameForDefaultAttribute"
+        },                {
+            "fqsen": "\\Efortmeyer\\Polar\\Core\\Attributes\\Config\\AttributeConfigInterface\u003A\u003AgetConstructorArgTypeForDefault\u0028\u0029",
+            "name": "getConstructorArgTypeForDefault",
+            "summary": "Provides\u0020the\u0020contructor\u0020argument\u0020type\u0020for\u0020the\u0020default\u0020attribute.",
+            "url": "classes/Efortmeyer-Polar-Core-Attributes-Config-AttributeConfigInterface.html#method_getConstructorArgTypeForDefault"
+        },                {
+            "fqsen": "\\Efortmeyer\\Polar\\Core\\Attributes\\Config\\AttributeConfigInterface\u003A\u003AforType\u0028\u0029",
+            "name": "forType",
+            "summary": "Use\u0020to\u0020determine\u0020if\u0020the\u0020attribute\u0020is\u0020for\u0020a\u0020specified\u0020type.",
+            "url": "classes/Efortmeyer-Polar-Core-Attributes-Config-AttributeConfigInterface.html#method_forType"
+        },                {
+            "fqsen": "\\Efortmeyer\\Polar\\Core\\Attributes\\Config\\AttributeConfigInterface\u003A\u003AisConfiguredForClass\u0028\u0029",
+            "name": "isConfiguredForClass",
+            "summary": "Use\u0020to\u0020deterimine\u0020if\u0020the\u0020attribute\u0020is\u0020configured\u0020for\u0020any\u0020class.",
+            "url": "classes/Efortmeyer-Polar-Core-Attributes-Config-AttributeConfigInterface.html#method_isConfiguredForClass"
         },                {
             "fqsen": "\\",
             "name": "\\",

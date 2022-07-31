@@ -92,34 +92,31 @@
                     <ul class="phpdocumentor-breadcrumbs">
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/efortmeyer.html">Efortmeyer</a></li>
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/efortmeyer-polar.html">Polar</a></li>
-            <li class="phpdocumentor-breadcrumb"><a href="namespaces/efortmeyer-polar-api.html">Api</a></li>
-            <li class="phpdocumentor-breadcrumb"><a href="namespaces/efortmeyer-polar-api-attributes.html">Attributes</a></li>
-            <li class="phpdocumentor-breadcrumb"><a href="namespaces/efortmeyer-polar-api-attributes-config.html">Config</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/efortmeyer-polar-core.html">Core</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/efortmeyer-polar-core-attributes.html">Attributes</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/efortmeyer-polar-core-attributes-config.html">Config</a></li>
     </ul>
 
-    <article class="phpdocumentor-element -class">
+    <article class="phpdocumentor-element -interface">
         <h2 class="phpdocumentor-content__title">
-    Collection
-
-    
-            <div class="phpdocumentor-element__package">
-            in package
+    AttributeConfigInterface
+                <div class="phpdocumentor-element__package">
+            in
             <ul class="phpdocumentor-breadcrumbs">
-                                    <li class="phpdocumentor-breadcrumb"><a href="packages/Polar.html">Polar</a></li>
+                                    <li><a href="packages/Polar.html">Polar</a></li>
                             </ul>
         </div>
-    
-    
     </h2>
 
         <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="Api/Attributes/Config/Collection.php"><a href="files/api-attributes-config-collection.html"><abbr title="Api/Attributes/Config/Collection.php">Collection.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="Core/Attributes/Config/AttributeConfigInterface.php"><a href="files/core-attributes-config-attributeconfiginterface.html"><abbr title="Core/Attributes/Config/AttributeConfigInterface.php">AttributeConfigInterface.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">14</span>
+    <span class="phpdocumentor-element-found-in__line">11</span>
 
     </aside>
 
-            <p class="phpdocumentor-summary">Use to register attribute configurations.</p>
+            <p class="phpdocumentor-summary">Provides a way to retrieve
+metadata for an attribute.</p>
 
 
 
@@ -136,33 +133,39 @@
 
 <dl class="phpdocumentor-table-of-contents">
                         <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Efortmeyer-Polar-Api-Attributes-Config-Collection.html#method_add">add()</a>
+    <a href="classes/Efortmeyer-Polar-Core-Attributes-Config-AttributeConfigInterface.html#method_forType">forType()</a>
     <span>
-                                &nbsp;: void    </span>
+                                &nbsp;: string    </span>
 </dt>
-<dd>Adds a configuration to this registry.</dd>
+<dd>Use to determine if the attribute is for a specified type.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Efortmeyer-Polar-Api-Attributes-Config-Collection.html#method_filter">filter()</a>
+    <a href="classes/Efortmeyer-Polar-Core-Attributes-Config-AttributeConfigInterface.html#method_getClassNameForDefaultAttribute">getClassNameForDefaultAttribute()</a>
     <span>
-                                &nbsp;: <a href="classes/Efortmeyer-Polar-Api-Attributes-Config-Collection.html"><abbr title="\Efortmeyer\Polar\Api\Attributes\Config\Collection">Collection</abbr></a>    </span>
+                                &nbsp;: string    </span>
 </dt>
-<dd>Applies a filtering function to this registry.</dd>
+<dd>Provides the class name for the default attribute.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Efortmeyer-Polar-Api-Attributes-Config-Collection.html#method_map">map()</a>
+    <a href="classes/Efortmeyer-Polar-Core-Attributes-Config-AttributeConfigInterface.html#method_getConstructorArgType">getConstructorArgType()</a>
     <span>
-                                &nbsp;: <a href="classes/Efortmeyer-Polar-Api-Attributes-Config-Collection.html"><abbr title="\Efortmeyer\Polar\Api\Attributes\Config\Collection">Collection</abbr></a>    </span>
+                                &nbsp;: <a href="classes/Efortmeyer-Polar-Core-Attributes-Config-ConstructorArgs.html"><abbr title="\Efortmeyer\Polar\Core\Attributes\Config\ConstructorArgs">ConstructorArgs</abbr></a>    </span>
 </dt>
-<dd>Transforms each configuration in this registry by
-applying the given mapping function.</dd>
+<dd>Provides the contructor argument type.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Efortmeyer-Polar-Api-Attributes-Config-Collection.html#method_toArray">toArray()</a>
+    <a href="classes/Efortmeyer-Polar-Core-Attributes-Config-AttributeConfigInterface.html#method_getConstructorArgTypeForDefault">getConstructorArgTypeForDefault()</a>
     <span>
-                                &nbsp;: array&lt;string|int, mixed&gt;    </span>
+                                &nbsp;: <a href="classes/Efortmeyer-Polar-Core-Attributes-Config-ConstructorArgs.html"><abbr title="\Efortmeyer\Polar\Core\Attributes\Config\ConstructorArgs">ConstructorArgs</abbr></a>    </span>
 </dt>
-<dd>Converts this object into an array.</dd>
+<dd>Provides the contructor argument type for the default attribute.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Efortmeyer-Polar-Core-Attributes-Config-AttributeConfigInterface.html#method_isConfiguredForClass">isConfiguredForClass()</a>
+    <span>
+                                &nbsp;: bool    </span>
+</dt>
+<dd>Use to deterimine if the attribute is configured for any class.</dd>
 
         </dl>
 
@@ -170,12 +173,10 @@ applying the given mapping function.</dd>
 
         
 
-        
-
             <section class="phpdocumentor-methods">
         <h3 class="phpdocumentor-elements__header" id="methods">
             Methods
-            <a href="classes/Efortmeyer-Polar-Api-Attributes-Config-Collection.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
+            <a href="classes/Efortmeyer-Polar-Core-Attributes-Config-AttributeConfigInterface.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
         </h3>
                     <article
         class="phpdocumentor-element
@@ -183,48 +184,29 @@ applying the given mapping function.</dd>
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_add">
-        add()
-        <a href="classes/Efortmeyer-Polar-Api-Attributes-Config-Collection.html#method_add" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_forType">
+        forType()
+        <a href="classes/Efortmeyer-Polar-Core-Attributes-Config-AttributeConfigInterface.html#method_forType" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="Api/Attributes/Config/Collection.php"><a href="files/api-attributes-config-collection.html"><abbr title="Api/Attributes/Config/Collection.php">Collection.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="Core/Attributes/Config/AttributeConfigInterface.php"><a href="files/core-attributes-config-attributeconfiginterface.html"><abbr title="Core/Attributes/Config/AttributeConfigInterface.php">AttributeConfigInterface.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">27</span>
+    <span class="phpdocumentor-element-found-in__line">39</span>
 
     </aside>
 
-        <p class="phpdocumentor-summary">Adds a configuration to this registry.</p>
+        <p class="phpdocumentor-summary">Use to determine if the attribute is for a specified type.</p>
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">add</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Efortmeyer-Polar-Api-Attributes-Config-Key.html"><abbr title="\Efortmeyer\Polar\Api\Attributes\Config\Key">Key</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$key</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Efortmeyer-Polar-Core-Attributes-Config-AttributeConfigInterface.html"><abbr title="\Efortmeyer\Polar\Core\Attributes\Config\AttributeConfigInterface">AttributeConfigInterface</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$attribute</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+                    <span class="phpdocumentor-signature__name">forType</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
 
     
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$key</span>
-                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/Efortmeyer-Polar-Api-Attributes-Config-Key.html"><abbr title="\Efortmeyer\Polar\Api\Attributes\Config\Key">Key</abbr></a></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$attribute</span>
-                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/Efortmeyer-Polar-Core-Attributes-Config-AttributeConfigInterface.html"><abbr title="\Efortmeyer\Polar\Core\Attributes\Config\AttributeConfigInterface">AttributeConfigInterface</abbr></a></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
-            </dd>
-            </dl>
-
+    
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">void</span>
+    <span class="phpdocumentor-signature__response_type">string</span>
             &mdash;
         
     
@@ -235,40 +217,29 @@ applying the given mapping function.</dd>
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_filter">
-        filter()
-        <a href="classes/Efortmeyer-Polar-Api-Attributes-Config-Collection.html#method_filter" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_getClassNameForDefaultAttribute">
+        getClassNameForDefaultAttribute()
+        <a href="classes/Efortmeyer-Polar-Core-Attributes-Config-AttributeConfigInterface.html#method_getClassNameForDefaultAttribute" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="Api/Attributes/Config/Collection.php"><a href="files/api-attributes-config-collection.html"><abbr title="Api/Attributes/Config/Collection.php">Collection.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="Core/Attributes/Config/AttributeConfigInterface.php"><a href="files/core-attributes-config-attributeconfiginterface.html"><abbr title="Core/Attributes/Config/AttributeConfigInterface.php">AttributeConfigInterface.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">37</span>
+    <span class="phpdocumentor-element-found-in__line">25</span>
 
     </aside>
 
-        <p class="phpdocumentor-summary">Applies a filtering function to this registry.</p>
+        <p class="phpdocumentor-summary">Provides the class name for the default attribute.</p>
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">filter</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Closure">Closure</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$filter</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/Efortmeyer-Polar-Api-Attributes-Config-Collection.html"><abbr title="\Efortmeyer\Polar\Api\Attributes\Config\Collection">Collection</abbr></a></span></code>
+                    <span class="phpdocumentor-signature__name">getClassNameForDefaultAttribute</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
 
     
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$filter</span>
-                : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\Closure">Closure</abbr></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
-            </dd>
-            </dl>
-
+    
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type"><a href="classes/Efortmeyer-Polar-Api-Attributes-Config-Collection.html"><abbr title="\Efortmeyer\Polar\Api\Attributes\Config\Collection">Collection</abbr></a></span>
+    <span class="phpdocumentor-signature__response_type">string</span>
             &mdash;
         
     
@@ -279,41 +250,29 @@ applying the given mapping function.</dd>
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_map">
-        map()
-        <a href="classes/Efortmeyer-Polar-Api-Attributes-Config-Collection.html#method_map" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_getConstructorArgType">
+        getConstructorArgType()
+        <a href="classes/Efortmeyer-Polar-Core-Attributes-Config-AttributeConfigInterface.html#method_getConstructorArgType" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="Api/Attributes/Config/Collection.php"><a href="files/api-attributes-config-collection.html"><abbr title="Api/Attributes/Config/Collection.php">Collection.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="Core/Attributes/Config/AttributeConfigInterface.php"><a href="files/core-attributes-config-attributeconfiginterface.html"><abbr title="Core/Attributes/Config/AttributeConfigInterface.php">AttributeConfigInterface.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">50</span>
+    <span class="phpdocumentor-element-found-in__line">18</span>
 
     </aside>
 
-        <p class="phpdocumentor-summary">Transforms each configuration in this registry by
-applying the given mapping function.</p>
+        <p class="phpdocumentor-summary">Provides the contructor argument type.</p>
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">map</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Closure">Closure</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$fun</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/Efortmeyer-Polar-Api-Attributes-Config-Collection.html"><abbr title="\Efortmeyer\Polar\Api\Attributes\Config\Collection">Collection</abbr></a></span></code>
+                    <span class="phpdocumentor-signature__name">getConstructorArgType</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/Efortmeyer-Polar-Core-Attributes-Config-ConstructorArgs.html"><abbr title="\Efortmeyer\Polar\Core\Attributes\Config\ConstructorArgs">ConstructorArgs</abbr></a></span></code>
 
     
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$fun</span>
-                : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\Closure">Closure</abbr></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
-            </dd>
-            </dl>
-
+    
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type"><a href="classes/Efortmeyer-Polar-Api-Attributes-Config-Collection.html"><abbr title="\Efortmeyer\Polar\Api\Attributes\Config\Collection">Collection</abbr></a></span>
+    <span class="phpdocumentor-signature__response_type"><a href="classes/Efortmeyer-Polar-Core-Attributes-Config-ConstructorArgs.html"><abbr title="\Efortmeyer\Polar\Core\Attributes\Config\ConstructorArgs">ConstructorArgs</abbr></a></span>
             &mdash;
         
     
@@ -324,29 +283,62 @@ applying the given mapping function.</p>
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_toArray">
-        toArray()
-        <a href="classes/Efortmeyer-Polar-Api-Attributes-Config-Collection.html#method_toArray" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_getConstructorArgTypeForDefault">
+        getConstructorArgTypeForDefault()
+        <a href="classes/Efortmeyer-Polar-Core-Attributes-Config-AttributeConfigInterface.html#method_getConstructorArgTypeForDefault" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="Api/Attributes/Config/Collection.php"><a href="files/api-attributes-config-collection.html"><abbr title="Api/Attributes/Config/Collection.php">Collection.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="Core/Attributes/Config/AttributeConfigInterface.php"><a href="files/core-attributes-config-attributeconfiginterface.html"><abbr title="Core/Attributes/Config/AttributeConfigInterface.php">AttributeConfigInterface.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">66</span>
+    <span class="phpdocumentor-element-found-in__line">32</span>
 
     </aside>
 
-        <p class="phpdocumentor-summary">Converts this object into an array.</p>
+        <p class="phpdocumentor-summary">Provides the contructor argument type for the default attribute.</p>
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">toArray</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
+                    <span class="phpdocumentor-signature__name">getConstructorArgTypeForDefault</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/Efortmeyer-Polar-Core-Attributes-Config-ConstructorArgs.html"><abbr title="\Efortmeyer\Polar\Core\Attributes\Config\ConstructorArgs">ConstructorArgs</abbr></a></span></code>
 
     
     
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span>
+    <span class="phpdocumentor-signature__response_type"><a href="classes/Efortmeyer-Polar-Core-Attributes-Config-ConstructorArgs.html"><abbr title="\Efortmeyer\Polar\Core\Attributes\Config\ConstructorArgs">ConstructorArgs</abbr></a></span>
+            &mdash;
+        
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_isConfiguredForClass">
+        isConfiguredForClass()
+        <a href="classes/Efortmeyer-Polar-Core-Attributes-Config-AttributeConfigInterface.html#method_isConfiguredForClass" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="Core/Attributes/Config/AttributeConfigInterface.php"><a href="files/core-attributes-config-attributeconfiginterface.html"><abbr title="Core/Attributes/Config/AttributeConfigInterface.php">AttributeConfigInterface.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">46</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Use to deterimine if the attribute is configured for any class.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">isConfiguredForClass</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+
+    
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">bool</span>
             &mdash;
         
     
@@ -429,7 +421,7 @@ applying the given mapping function.</p>
 </section>
             </div>
         </div>
-        <a href="classes/Efortmeyer-Polar-Api-Attributes-Config-Collection.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+        <a href="classes/Efortmeyer-Polar-Core-Attributes-Config-AttributeConfigInterface.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
 
     </main>
 
