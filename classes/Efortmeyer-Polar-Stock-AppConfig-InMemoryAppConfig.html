@@ -93,12 +93,12 @@
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/efortmeyer.html">Efortmeyer</a></li>
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/efortmeyer-polar.html">Polar</a></li>
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/efortmeyer-polar-stock.html">Stock</a></li>
-            <li class="phpdocumentor-breadcrumb"><a href="namespaces/efortmeyer-polar-stock-datastorage.html">DataStorage</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/efortmeyer-polar-stock-appconfig.html">AppConfig</a></li>
     </ul>
 
     <article class="phpdocumentor-element -class">
         <h2 class="phpdocumentor-content__title">
-    CsvFileStorage
+    InMemoryAppConfig
 
     
             <div class="phpdocumentor-element__package">
@@ -110,18 +110,18 @@
     
             <span class="phpdocumentor-element__implements">
             implements
-                            <a href="classes/Efortmeyer-Polar-Api-DataStorage-CollectionStorageInterface.html"><abbr title="\Efortmeyer\Polar\Api\DataStorage\CollectionStorageInterface">CollectionStorageInterface</abbr></a>                    </span>
+                            <a href="classes/Efortmeyer-Polar-Api-AppConfigInterface.html"><abbr title="\Efortmeyer\Polar\Api\AppConfigInterface">AppConfigInterface</abbr></a>                    </span>
     
     </h2>
 
         <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="Stock/DataStorage/CsvFileStorage.php"><a href="files/stock-datastorage-csvfilestorage.html"><abbr title="Stock/DataStorage/CsvFileStorage.php">CsvFileStorage.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="Stock/AppConfig/InMemoryAppConfig.php"><a href="files/stock-appconfig-inmemoryappconfig.html"><abbr title="Stock/AppConfig/InMemoryAppConfig.php">InMemoryAppConfig.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">17</span>
+    <span class="phpdocumentor-element-found-in__line">43</span>
 
     </aside>
 
-            <p class="phpdocumentor-summary">Use to interact with a CSV file&#039;s data.</p>
+            <p class="phpdocumentor-summary">Provides an in memory interface for configuration the application.</p>
 
 
 
@@ -135,8 +135,8 @@
 </h3>
 
 <dl class="phpdocumentor-table-of-contents">
-            <dt class="phpdocumentor-table-of-contents__entry -interface"><a href="classes/Efortmeyer-Polar-Api-DataStorage-CollectionStorageInterface.html"><abbr title="\Efortmeyer\Polar\Api\DataStorage\CollectionStorageInterface">CollectionStorageInterface</abbr></a></dt>
-        <dd>Provides a way to interact with a list of items.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -interface"><a href="classes/Efortmeyer-Polar-Api-AppConfigInterface.html"><abbr title="\Efortmeyer\Polar\Api\AppConfigInterface">AppConfigInterface</abbr></a></dt>
+        <dd>Provides support for configuring the app.</dd>
     
     
     
@@ -150,39 +150,25 @@
 
 <dl class="phpdocumentor-table-of-contents">
                         <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Efortmeyer-Polar-Stock-DataStorage-CsvFileStorage.html#method___construct">__construct()</a>
+    <a href="classes/Efortmeyer-Polar-Stock-AppConfig-InMemoryAppConfig.html#method___construct">__construct()</a>
     <span>
                                 &nbsp;: mixed    </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Efortmeyer-Polar-Stock-DataStorage-CsvFileStorage.html#method___destruct">__destruct()</a>
-    <span>
-                                &nbsp;: mixed    </span>
-</dt>
-<dd></dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Efortmeyer-Polar-Stock-DataStorage-CsvFileStorage.html#method_getDefaultName">getDefaultName()</a>
-    <span>
-                                &nbsp;: string    </span>
-</dt>
-<dd></dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Efortmeyer-Polar-Stock-DataStorage-CsvFileStorage.html#method_list">list()</a>
-    <span>
-                                &nbsp;: array&lt;string|int, <a href="classes/Efortmeyer-Polar-Api-Model.html"><abbr title="\Efortmeyer\Polar\Api\Model">Model</abbr></a>&gt;    </span>
-</dt>
-<dd>Returns a list of records from a CSV file.</dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/Efortmeyer-Polar-Stock-DataStorage-CsvFileStorage.html#method_save">save()</a>
+    <a href="classes/Efortmeyer-Polar-Stock-AppConfig-InMemoryAppConfig.html#method_add">add()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
-<dd>Saves a record to a CSV file.</dd>
+<dd>Add or override an attribute configuration.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Efortmeyer-Polar-Stock-AppConfig-InMemoryAppConfig.html#method_getAll">getAll()</a>
+    <span>
+                                &nbsp;: <a href="classes/Efortmeyer-Polar-Api-Attributes-Config-Collection.html"><abbr title="\Efortmeyer\Polar\Api\Attributes\Config\Collection">Collection</abbr></a>    </span>
+</dt>
+<dd>Return the all registered attribute configurations.</dd>
 
         </dl>
 
@@ -195,7 +181,7 @@
             <section class="phpdocumentor-methods">
         <h3 class="phpdocumentor-elements__header" id="methods">
             Methods
-            <a href="classes/Efortmeyer-Polar-Stock-DataStorage-CsvFileStorage.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
+            <a href="classes/Efortmeyer-Polar-Stock-AppConfig-InMemoryAppConfig.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
         </h3>
                     <article
         class="phpdocumentor-element
@@ -205,42 +191,23 @@
 >
     <h4 class="phpdocumentor-element__name" id="method___construct">
         __construct()
-        <a href="classes/Efortmeyer-Polar-Stock-DataStorage-CsvFileStorage.html#method___construct" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Efortmeyer-Polar-Stock-AppConfig-InMemoryAppConfig.html#method___construct" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="Stock/DataStorage/CsvFileStorage.php"><a href="files/stock-datastorage-csvfilestorage.html"><abbr title="Stock/DataStorage/CsvFileStorage.php">CsvFileStorage.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="Stock/AppConfig/InMemoryAppConfig.php"><a href="files/stock-appconfig-inmemoryappconfig.html"><abbr title="Stock/AppConfig/InMemoryAppConfig.php">InMemoryAppConfig.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">35</span>
+    <span class="phpdocumentor-element-found-in__line">47</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$pathToFile</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Efortmeyer-Polar-Api-Attributes-Config-Collection.html"><abbr title="\Efortmeyer\Polar\Api\Attributes\Config\Collection">Collection</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$attributeConfigMap</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
         <section class="phpdocumentor-description"></section>
 
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$pathToFile</span>
-                : <span class="phpdocumentor-signature__argument__return-type">string</span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$attributeConfigMap</span>
-                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/Efortmeyer-Polar-Api-Attributes-Config-Collection.html"><abbr title="\Efortmeyer\Polar\Api\Attributes\Config\Collection">Collection</abbr></a></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
-            </dd>
-            </dl>
-
+    
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
@@ -255,151 +222,37 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method___destruct">
-        __destruct()
-        <a href="classes/Efortmeyer-Polar-Stock-DataStorage-CsvFileStorage.html#method___destruct" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_add">
+        add()
+        <a href="classes/Efortmeyer-Polar-Stock-AppConfig-InMemoryAppConfig.html#method_add" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="Stock/DataStorage/CsvFileStorage.php"><a href="files/stock-datastorage-csvfilestorage.html"><abbr title="Stock/DataStorage/CsvFileStorage.php">CsvFileStorage.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="Stock/AppConfig/InMemoryAppConfig.php"><a href="files/stock-appconfig-inmemoryappconfig.html"><abbr title="Stock/AppConfig/InMemoryAppConfig.php">InMemoryAppConfig.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">44</span>
+    <span class="phpdocumentor-element-found-in__line">55</span>
 
     </aside>
 
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">__destruct</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
-
-    
-    
-    
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
-        Tags
-        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
-    </h5>
-    <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">codeCoverageIgnore</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                
-                                             
-                                    </dd>
-                        </dl>
-
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">mixed</span>
-            &mdash;
-        
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                    -static                    "
->
-    <h4 class="phpdocumentor-element__name" id="method_getDefaultName">
-        getDefaultName()
-        <a href="classes/Efortmeyer-Polar-Stock-DataStorage-CsvFileStorage.html#method_getDefaultName" class="headerlink"><i class="fas fa-link"></i></a>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="Stock/DataStorage/CsvFileStorage.php"><a href="files/stock-datastorage-csvfilestorage.html"><abbr title="Stock/DataStorage/CsvFileStorage.php">CsvFileStorage.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">56</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">getDefaultName</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
-
-        <section class="phpdocumentor-description"></section>
-
-    
-    
-
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">string</span>
-            &mdash;
-        
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_list">
-        list()
-        <a href="classes/Efortmeyer-Polar-Stock-DataStorage-CsvFileStorage.html#method_list" class="headerlink"><i class="fas fa-link"></i></a>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="Stock/DataStorage/CsvFileStorage.php"><a href="files/stock-datastorage-csvfilestorage.html"><abbr title="Stock/DataStorage/CsvFileStorage.php">CsvFileStorage.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">152</span>
-
-    </aside>
-
-        <p class="phpdocumentor-summary">Returns a list of records from a CSV file.</p>
+        <p class="phpdocumentor-summary">Add or override an attribute configuration.</p>
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">list</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$modelClassName</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, <a href="classes/Efortmeyer-Polar-Api-Model.html"><abbr title="\Efortmeyer\Polar\Api\Model">Model</abbr></a>&gt;</span></code>
+                    <span class="phpdocumentor-signature__name">add</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Efortmeyer-Polar-Api-Attributes-Config-Key.html"><abbr title="\Efortmeyer\Polar\Api\Attributes\Config\Key">Key</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$key</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Efortmeyer-Polar-Core-Attributes-Config-AttributeConfig.html"><abbr title="\Efortmeyer\Polar\Core\Attributes\Config\AttributeConfig">AttributeConfig</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$config</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$modelClassName</span>
-                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                <span class="phpdocumentor-signature__argument__name">$key</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/Efortmeyer-Polar-Api-Attributes-Config-Key.html"><abbr title="\Efortmeyer\Polar\Api\Attributes\Config\Key">Key</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                     <section class="phpdocumentor-description"></section>
 
             </dd>
-            </dl>
-
-    
-
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">array&lt;string|int, <a href="classes/Efortmeyer-Polar-Api-Model.html"><abbr title="\Efortmeyer\Polar\Api\Model">Model</abbr></a>&gt;</span>
-            &mdash;
-        
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_save">
-        save()
-        <a href="classes/Efortmeyer-Polar-Stock-DataStorage-CsvFileStorage.html#method_save" class="headerlink"><i class="fas fa-link"></i></a>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="Stock/DataStorage/CsvFileStorage.php"><a href="files/stock-datastorage-csvfilestorage.html"><abbr title="Stock/DataStorage/CsvFileStorage.php">CsvFileStorage.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">132</span>
-
-    </aside>
-
-        <p class="phpdocumentor-summary">Saves a record to a CSV file.</p>
-
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">save</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Efortmeyer-Polar-Api-Model.html"><abbr title="\Efortmeyer\Polar\Api\Model">Model</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$record</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
-
-    
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$record</span>
-                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/Efortmeyer-Polar-Api-Model.html"><abbr title="\Efortmeyer\Polar\Api\Model">Model</abbr></a></span>
+                <span class="phpdocumentor-signature__argument__name">$config</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/Efortmeyer-Polar-Core-Attributes-Config-AttributeConfig.html"><abbr title="\Efortmeyer\Polar\Core\Attributes\Config\AttributeConfig">AttributeConfig</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                     <section class="phpdocumentor-description"></section>
@@ -411,6 +264,39 @@
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">void</span>
+            &mdash;
+        
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getAll">
+        getAll()
+        <a href="classes/Efortmeyer-Polar-Stock-AppConfig-InMemoryAppConfig.html#method_getAll" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="Stock/AppConfig/InMemoryAppConfig.php"><a href="files/stock-appconfig-inmemoryappconfig.html"><abbr title="Stock/AppConfig/InMemoryAppConfig.php">InMemoryAppConfig.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">63</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Return the all registered attribute configurations.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">getAll</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/Efortmeyer-Polar-Api-Attributes-Config-Collection.html"><abbr title="\Efortmeyer\Polar\Api\Attributes\Config\Collection">Collection</abbr></a></span></code>
+
+    
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type"><a href="classes/Efortmeyer-Polar-Api-Attributes-Config-Collection.html"><abbr title="\Efortmeyer\Polar\Api\Attributes\Config\Collection">Collection</abbr></a></span>
             &mdash;
         
     
@@ -493,7 +379,7 @@
 </section>
             </div>
         </div>
-        <a href="classes/Efortmeyer-Polar-Stock-DataStorage-CsvFileStorage.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+        <a href="classes/Efortmeyer-Polar-Stock-AppConfig-InMemoryAppConfig.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
 
     </main>
 

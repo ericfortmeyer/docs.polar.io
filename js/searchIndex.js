@@ -6,6 +6,11 @@ Search.appendIndex(
             "summary": "Integrates\u0020the\u0020libraries\u0020features\ninto\u0020an\u0020application.",
             "url": "classes/Efortmeyer-Polar-Api-App.html"
         },                {
+            "fqsen": "\\Efortmeyer\\Polar\\Api\\App\u003A\u003Acreate\u0028\u0029",
+            "name": "create",
+            "summary": "Creates\u0020an\u0020app\u0020object\u0020using\ndefault\u0020configuration\u0020and\nstorage",
+            "url": "classes/Efortmeyer-Polar-Api-App.html#method_create"
+        },                {
             "fqsen": "\\Efortmeyer\\Polar\\Api\\App\u003A\u003Aconfigure\u0028\u0029",
             "name": "configure",
             "summary": "Creates\u0020an\u0020app\u0020object\u0020using\nthe\u0020provided\u0020configuration.",
@@ -96,16 +101,6 @@ Search.appendIndex(
             "summary": "Returns\u0020the\u0020string\u0020representation\u0020of\u0020this\u0020key.",
             "url": "classes/Efortmeyer-Polar-Api-Attributes-Config-Key.html#method_getKey"
         },                {
-            "fqsen": "\\Efortmeyer\\Polar\\Api\\Comparable",
-            "name": "Comparable",
-            "summary": "Provides\u0020support\u0020for\u0020equality\u0020comparison.",
-            "url": "classes/Efortmeyer-Polar-Api-Comparable.html"
-        },                {
-            "fqsen": "\\Efortmeyer\\Polar\\Api\\Comparable\u003A\u003Aequals\u0028\u0029",
-            "name": "equals",
-            "summary": "",
-            "url": "classes/Efortmeyer-Polar-Api-Comparable.html#method_equals"
-        },                {
             "fqsen": "\\Efortmeyer\\Polar\\Api\\DataStorage\\CollectionStorageFactory",
             "name": "CollectionStorageFactory",
             "summary": "Provides\u0020a\u0020way\u0020to\u0020create\u0020a\u0020storage\u0020object.",
@@ -130,26 +125,6 @@ Search.appendIndex(
             "name": "list",
             "summary": "Returns\u0020a\u0020list\u0020of\u0020items.",
             "url": "classes/Efortmeyer-Polar-Api-DataStorage-CollectionStorageInterface.html#method_list"
-        },                {
-            "fqsen": "\\Efortmeyer\\Polar\\Api\\InMemoryAppConfig",
-            "name": "InMemoryAppConfig",
-            "summary": "Provides\u0020an\u0020in\u0020memory\u0020interface\u0020for\u0020configuration\u0020the\u0020application.",
-            "url": "classes/Efortmeyer-Polar-Api-InMemoryAppConfig.html"
-        },                {
-            "fqsen": "\\Efortmeyer\\Polar\\Api\\InMemoryAppConfig\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/Efortmeyer-Polar-Api-InMemoryAppConfig.html#method___construct"
-        },                {
-            "fqsen": "\\Efortmeyer\\Polar\\Api\\InMemoryAppConfig\u003A\u003Aadd\u0028\u0029",
-            "name": "add",
-            "summary": "Add\u0020or\u0020override\u0020an\u0020attribute\u0020configuration.",
-            "url": "classes/Efortmeyer-Polar-Api-InMemoryAppConfig.html#method_add"
-        },                {
-            "fqsen": "\\Efortmeyer\\Polar\\Api\\InMemoryAppConfig\u003A\u003AgetAll\u0028\u0029",
-            "name": "getAll",
-            "summary": "Return\u0020the\u0020all\u0020registered\u0020attribute\u0020configurations.",
-            "url": "classes/Efortmeyer-Polar-Api-InMemoryAppConfig.html#method_getAll"
         },                {
             "fqsen": "\\Efortmeyer\\Polar\\Api\\Model",
             "name": "Model",
@@ -230,56 +205,6 @@ Search.appendIndex(
             "name": "getMessage",
             "summary": "",
             "url": "classes/Efortmeyer-Polar-Api-UIElements-ErrorBanner.html#method_getMessage"
-        },                {
-            "fqsen": "\\Efortmeyer\\Polar\\Api\\UIElements\\Form",
-            "name": "Form",
-            "summary": "Represents\u0020an\u0020object\u0020used\u0020in\u0020a\u0020template.",
-            "url": "classes/Efortmeyer-Polar-Api-UIElements-Form.html"
-        },                {
-            "fqsen": "\\Efortmeyer\\Polar\\Api\\UIElements\\Form\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/Efortmeyer-Polar-Api-UIElements-Form.html#method___construct"
-        },                {
-            "fqsen": "\\Efortmeyer\\Polar\\Api\\UIElements\\Form\u003A\u003AgetModel\u0028\u0029",
-            "name": "getModel",
-            "summary": "",
-            "url": "classes/Efortmeyer-Polar-Api-UIElements-Form.html#method_getModel"
-        },                {
-            "fqsen": "\\Efortmeyer\\Polar\\Api\\UIElements\\Form\u003A\u003Asubmit\u0028\u0029",
-            "name": "submit",
-            "summary": "",
-            "url": "classes/Efortmeyer-Polar-Api-UIElements-Form.html#method_submit"
-        },                {
-            "fqsen": "\\Efortmeyer\\Polar\\Api\\UIElements\\Form\u003A\u003AgetTextInputs\u0028\u0029",
-            "name": "getTextInputs",
-            "summary": "",
-            "url": "classes/Efortmeyer-Polar-Api-UIElements-Form.html#method_getTextInputs"
-        },                {
-            "fqsen": "\\Efortmeyer\\Polar\\Api\\UIElements\\Form\u003A\u003AgetTextAreaInputs\u0028\u0029",
-            "name": "getTextAreaInputs",
-            "summary": "",
-            "url": "classes/Efortmeyer-Polar-Api-UIElements-Form.html#method_getTextAreaInputs"
-        },                {
-            "fqsen": "\\Efortmeyer\\Polar\\Api\\UIElements\\Form\u003A\u003AgetDateInputs\u0028\u0029",
-            "name": "getDateInputs",
-            "summary": "",
-            "url": "classes/Efortmeyer-Polar-Api-UIElements-Form.html#method_getDateInputs"
-        },                {
-            "fqsen": "\\Efortmeyer\\Polar\\Api\\UIElements\\Form\u003A\u003AgetHiddenInputs\u0028\u0029",
-            "name": "getHiddenInputs",
-            "summary": "",
-            "url": "classes/Efortmeyer-Polar-Api-UIElements-Form.html#method_getHiddenInputs"
-        },                {
-            "fqsen": "\\Efortmeyer\\Polar\\Api\\UIElements\\Form\u003A\u003AhasErrors\u0028\u0029",
-            "name": "hasErrors",
-            "summary": "",
-            "url": "classes/Efortmeyer-Polar-Api-UIElements-Form.html#method_hasErrors"
-        },                {
-            "fqsen": "\\Efortmeyer\\Polar\\Api\\UIElements\\Form\u003A\u003A\u0024banner",
-            "name": "banner",
-            "summary": "",
-            "url": "classes/Efortmeyer-Polar-Api-UIElements-Form.html#property_banner"
         },                {
             "fqsen": "\\Efortmeyer\\Polar\\Api\\UIElements\\FormControl",
             "name": "FormControl",
@@ -991,6 +916,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/Efortmeyer-Polar-Stock-DataStorage-CsvFileStorage.html#method___destruct"
         },                {
+            "fqsen": "\\Efortmeyer\\Polar\\Stock\\DataStorage\\CsvFileStorage\u003A\u003AgetDefaultName\u0028\u0029",
+            "name": "getDefaultName",
+            "summary": "",
+            "url": "classes/Efortmeyer-Polar-Stock-DataStorage-CsvFileStorage.html#method_getDefaultName"
+        },                {
             "fqsen": "\\Efortmeyer\\Polar\\Stock\\DataStorage\\CsvFileStorage\u003A\u003Asave\u0028\u0029",
             "name": "save",
             "summary": "Saves\u0020a\u0020record\u0020to\u0020a\u0020CSV\u0020file.",
@@ -1481,6 +1411,86 @@ Search.appendIndex(
             "summary": "Use\u0020to\u0020deterimine\u0020if\u0020the\u0020attribute\u0020is\u0020configured\u0020for\u0020any\u0020class.",
             "url": "classes/Efortmeyer-Polar-Core-Attributes-Config-AttributeConfigInterface.html#method_isConfiguredForClass"
         },                {
+            "fqsen": "\\Efortmeyer\\Polar\\Api\\Form",
+            "name": "Form",
+            "summary": "Represents\u0020an\u0020object\u0020used\u0020in\u0020a\u0020template.",
+            "url": "classes/Efortmeyer-Polar-Api-Form.html"
+        },                {
+            "fqsen": "\\Efortmeyer\\Polar\\Api\\Form\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/Efortmeyer-Polar-Api-Form.html#method___construct"
+        },                {
+            "fqsen": "\\Efortmeyer\\Polar\\Api\\Form\u003A\u003AgetModel\u0028\u0029",
+            "name": "getModel",
+            "summary": "",
+            "url": "classes/Efortmeyer-Polar-Api-Form.html#method_getModel"
+        },                {
+            "fqsen": "\\Efortmeyer\\Polar\\Api\\Form\u003A\u003Asubmit\u0028\u0029",
+            "name": "submit",
+            "summary": "",
+            "url": "classes/Efortmeyer-Polar-Api-Form.html#method_submit"
+        },                {
+            "fqsen": "\\Efortmeyer\\Polar\\Api\\Form\u003A\u003AgetTextInputs\u0028\u0029",
+            "name": "getTextInputs",
+            "summary": "",
+            "url": "classes/Efortmeyer-Polar-Api-Form.html#method_getTextInputs"
+        },                {
+            "fqsen": "\\Efortmeyer\\Polar\\Api\\Form\u003A\u003AgetTextAreaInputs\u0028\u0029",
+            "name": "getTextAreaInputs",
+            "summary": "",
+            "url": "classes/Efortmeyer-Polar-Api-Form.html#method_getTextAreaInputs"
+        },                {
+            "fqsen": "\\Efortmeyer\\Polar\\Api\\Form\u003A\u003AgetDateInputs\u0028\u0029",
+            "name": "getDateInputs",
+            "summary": "",
+            "url": "classes/Efortmeyer-Polar-Api-Form.html#method_getDateInputs"
+        },                {
+            "fqsen": "\\Efortmeyer\\Polar\\Api\\Form\u003A\u003AgetHiddenInputs\u0028\u0029",
+            "name": "getHiddenInputs",
+            "summary": "",
+            "url": "classes/Efortmeyer-Polar-Api-Form.html#method_getHiddenInputs"
+        },                {
+            "fqsen": "\\Efortmeyer\\Polar\\Api\\Form\u003A\u003AhasErrors\u0028\u0029",
+            "name": "hasErrors",
+            "summary": "",
+            "url": "classes/Efortmeyer-Polar-Api-Form.html#method_hasErrors"
+        },                {
+            "fqsen": "\\Efortmeyer\\Polar\\Api\\Form\u003A\u003A\u0024banner",
+            "name": "banner",
+            "summary": "",
+            "url": "classes/Efortmeyer-Polar-Api-Form.html#property_banner"
+        },                {
+            "fqsen": "\\Efortmeyer\\Polar\\Core\\Comparable",
+            "name": "Comparable",
+            "summary": "Provides\u0020support\u0020for\u0020equality\u0020comparison.",
+            "url": "classes/Efortmeyer-Polar-Core-Comparable.html"
+        },                {
+            "fqsen": "\\Efortmeyer\\Polar\\Core\\Comparable\u003A\u003Aequals\u0028\u0029",
+            "name": "equals",
+            "summary": "",
+            "url": "classes/Efortmeyer-Polar-Core-Comparable.html#method_equals"
+        },                {
+            "fqsen": "\\Efortmeyer\\Polar\\Stock\\AppConfig\\InMemoryAppConfig",
+            "name": "InMemoryAppConfig",
+            "summary": "Provides\u0020an\u0020in\u0020memory\u0020interface\u0020for\u0020configuration\u0020the\u0020application.",
+            "url": "classes/Efortmeyer-Polar-Stock-AppConfig-InMemoryAppConfig.html"
+        },                {
+            "fqsen": "\\Efortmeyer\\Polar\\Stock\\AppConfig\\InMemoryAppConfig\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/Efortmeyer-Polar-Stock-AppConfig-InMemoryAppConfig.html#method___construct"
+        },                {
+            "fqsen": "\\Efortmeyer\\Polar\\Stock\\AppConfig\\InMemoryAppConfig\u003A\u003Aadd\u0028\u0029",
+            "name": "add",
+            "summary": "Add\u0020or\u0020override\u0020an\u0020attribute\u0020configuration.",
+            "url": "classes/Efortmeyer-Polar-Stock-AppConfig-InMemoryAppConfig.html#method_add"
+        },                {
+            "fqsen": "\\Efortmeyer\\Polar\\Stock\\AppConfig\\InMemoryAppConfig\u003A\u003AgetAll\u0028\u0029",
+            "name": "getAll",
+            "summary": "Return\u0020the\u0020all\u0020registered\u0020attribute\u0020configurations.",
+            "url": "classes/Efortmeyer-Polar-Stock-AppConfig-InMemoryAppConfig.html#method_getAll"
+        },                {
             "fqsen": "\\",
             "name": "\\",
             "summary": "",
@@ -1571,15 +1581,20 @@ Search.appendIndex(
             "summary": "",
             "url": "namespaces/efortmeyer-polar-core-rendering.html"
         },                {
-            "fqsen": "\\Efortmeyer\\Polar\\Stock\\Attributes",
-            "name": "Attributes",
+            "fqsen": "\\Efortmeyer\\Polar\\Stock\\AppConfig",
+            "name": "AppConfig",
             "summary": "",
-            "url": "namespaces/efortmeyer-polar-stock-attributes.html"
+            "url": "namespaces/efortmeyer-polar-stock-appconfig.html"
         },                {
             "fqsen": "\\Efortmeyer\\Polar\\Stock",
             "name": "Stock",
             "summary": "",
             "url": "namespaces/efortmeyer-polar-stock.html"
+        },                {
+            "fqsen": "\\Efortmeyer\\Polar\\Stock\\Attributes",
+            "name": "Attributes",
+            "summary": "",
+            "url": "namespaces/efortmeyer-polar-stock-attributes.html"
         },                {
             "fqsen": "\\Efortmeyer\\Polar\\Stock\\Attributes\\Config",
             "name": "Config",
