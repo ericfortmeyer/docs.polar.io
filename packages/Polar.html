@@ -76,7 +76,6 @@
             
     <section class="phpdocumentor-sidebar__category">
         <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
-                <h3 class="phpdocumentor-sidebar__root-package"><a href="graphs/classes.html">Class Diagram</a></h3>
                 <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/deprecated.html">Deprecated</a></h3>
         <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/errors.html">Errors</a></h3>
         <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/markers.html">Markers</a></h3>
@@ -111,8 +110,6 @@
         <dd>Provides a way to interact with a list of items.</dd>
             <dt class="phpdocumentor-table-of-contents__entry -interface"><a href="classes/Efortmeyer-Polar-Api-Validation-ValidationInterface.html"><abbr title="\Efortmeyer\Polar\Api\Validation\ValidationInterface">ValidationInterface</abbr></a></dt>
         <dd>Provides a way to validate a field.</dd>
-            <dt class="phpdocumentor-table-of-contents__entry -interface"><a href="classes/Stringable.html"><abbr title="\Stringable">Stringable</abbr></a></dt>
-        <dd></dd>
             <dt class="phpdocumentor-table-of-contents__entry -interface"><a href="classes/Efortmeyer-Polar-Core-Attributes-Config-AttributeConfigInterface.html"><abbr title="\Efortmeyer\Polar\Core\Attributes\Config\AttributeConfigInterface">AttributeConfigInterface</abbr></a></dt>
         <dd>Provides a way to retrieve
 metadata for an attribute.</dd>
@@ -128,6 +125,8 @@ into an application.</dd>
         <dd>Use to register attribute configurations.</dd>
             <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Efortmeyer-Polar-Api-DataStorage-CollectionStorageFactory.html"><abbr title="\Efortmeyer\Polar\Api\DataStorage\CollectionStorageFactory">CollectionStorageFactory</abbr></a></dt>
         <dd>Provides a way to create a storage object.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Efortmeyer-Polar-Api-Form.html"><abbr title="\Efortmeyer\Polar\Api\Form">Form</abbr></a></dt>
+        <dd>Represents an object used in a template.</dd>
             <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Efortmeyer-Polar-Api-Model.html"><abbr title="\Efortmeyer\Polar\Api\Model">Model</abbr></a></dt>
         <dd>Represents a unit of data.</dd>
             <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Efortmeyer-Polar-Api-Rendering-Files-File.html"><abbr title="\Efortmeyer\Polar\Api\Rendering\Files\File">File</abbr></a></dt>
@@ -151,6 +150,8 @@ request handlers.</dd>
         <dd></dd>
             <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Efortmeyer-Polar-Api-UIElements-HiddenFormControl.html"><abbr title="\Efortmeyer\Polar\Api\UIElements\HiddenFormControl">HiddenFormControl</abbr></a></dt>
         <dd></dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Efortmeyer-Polar-Api-UIElements-Messages.html"><abbr title="\Efortmeyer\Polar\Api\UIElements\Messages">Messages</abbr></a></dt>
+        <dd>Holds default message values.</dd>
             <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Efortmeyer-Polar-Api-UIElements-NumberFormControl.html"><abbr title="\Efortmeyer\Polar\Api\UIElements\NumberFormControl">NumberFormControl</abbr></a></dt>
         <dd></dd>
             <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Efortmeyer-Polar-Api-UIElements-SuccessBanner.html"><abbr title="\Efortmeyer\Polar\Api\UIElements\SuccessBanner">SuccessBanner</abbr></a></dt>
@@ -158,6 +159,12 @@ request handlers.</dd>
             <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Efortmeyer-Polar-Api-UIElements-TextAreaFormControl.html"><abbr title="\Efortmeyer\Polar\Api\UIElements\TextAreaFormControl">TextAreaFormControl</abbr></a></dt>
         <dd></dd>
             <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Efortmeyer-Polar-Api-UIElements-TextFormControl.html"><abbr title="\Efortmeyer\Polar\Api\UIElements\TextFormControl">TextFormControl</abbr></a></dt>
+        <dd></dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Efortmeyer-Polar-Core-Attributes-Attribute.html"><abbr title="\Efortmeyer\Polar\Core\Attributes\Attribute">Attribute</abbr></a></dt>
+        <dd>Provides a way to configure objects using Attributes.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Efortmeyer-Polar-Core-Attributes-AttributeCollection.html"><abbr title="\Efortmeyer\Polar\Core\Attributes\AttributeCollection">AttributeCollection</abbr></a></dt>
+        <dd></dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Efortmeyer-Polar-Core-Attributes-Config-AttributeConfig.html"><abbr title="\Efortmeyer\Polar\Core\Attributes\Config\AttributeConfig">AttributeConfig</abbr></a></dt>
         <dd></dd>
             <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Efortmeyer-Polar-Core-Attributes-Config-ConstructorArgs.html"><abbr title="\Efortmeyer\Polar\Core\Attributes\Config\ConstructorArgs">ConstructorArgs</abbr></a></dt>
         <dd>Use to provide metadata about the attribute
@@ -176,11 +183,32 @@ constructor argument.</dd>
         <dd>Tells the parser that the attribute&#039;s constructor
 uses the value of the property it configures as it&#039;s
 constructor argument.</dd>
-            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Efortmeyer-Polar-Core-Attributes-Config-ConstructorArgsPropertyValueWithSecondArg.html"><abbr title="\Efortmeyer\Polar\Core\Attributes\Config\ConstructorArgsPropertyValueWithSecondArg">ConstructorArgsPropertyValueWithSecondArg</abbr></a></dt>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Efortmeyer-Polar-Core-Attributes-Config-ConstructorArgsPropValWithSndArg.html"><abbr title="\Efortmeyer\Polar\Core\Attributes\Config\ConstructorArgsPropValWithSndArg">ConstructorArgsPropValWithSndArg</abbr></a></dt>
         <dd>Tells the parser that the attribute&#039;s constructor
 uses the name of the property it configures as it&#039;s
 first constructor argument.  The second argument is
 provided in the annotation or native attribute.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Efortmeyer-Polar-Core-Attributes-RequiredAttributeNotFoundException.html"><abbr title="\Efortmeyer\Polar\Core\Attributes\RequiredAttributeNotFoundException">RequiredAttributeNotFoundException</abbr></a></dt>
+        <dd></dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Efortmeyer-Polar-Core-Entry.html"><abbr title="\Efortmeyer\Polar\Core\Entry">Entry</abbr></a></dt>
+        <dd>Represents an item in a collection or a row in a table.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Efortmeyer-Polar-Core-Fields-AutomaticDateField.html"><abbr title="\Efortmeyer\Polar\Core\Fields\AutomaticDateField">AutomaticDateField</abbr></a></dt>
+        <dd>Represents a date field with and automatically
+generated value.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Efortmeyer-Polar-Core-Fields-DateField.html"><abbr title="\Efortmeyer\Polar\Core\Fields\DateField">DateField</abbr></a></dt>
+        <dd>Represents a date field.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Efortmeyer-Polar-Core-Fields-FieldMetadata.html"><abbr title="\Efortmeyer\Polar\Core\Fields\FieldMetadata">FieldMetadata</abbr></a></dt>
+        <dd>Provides metadata for a field.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Efortmeyer-Polar-Core-Fields-FieldMetadataConfig.html"><abbr title="\Efortmeyer\Polar\Core\Fields\FieldMetadataConfig">FieldMetadataConfig</abbr></a></dt>
+        <dd>Configures metadata for a field.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Efortmeyer-Polar-Core-Fields-FieldMetadataFactory.html"><abbr title="\Efortmeyer\Polar\Core\Fields\FieldMetadataFactory">FieldMetadataFactory</abbr></a></dt>
+        <dd></dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Efortmeyer-Polar-Core-Fields-NumberField.html"><abbr title="\Efortmeyer\Polar\Core\Fields\NumberField">NumberField</abbr></a></dt>
+        <dd>Represents a number field.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Efortmeyer-Polar-Core-Fields-TextAreaField.html"><abbr title="\Efortmeyer\Polar\Core\Fields\TextAreaField">TextAreaField</abbr></a></dt>
+        <dd>Represents a textarea field.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Efortmeyer-Polar-Core-Fields-TextField.html"><abbr title="\Efortmeyer\Polar\Core\Fields\TextField">TextField</abbr></a></dt>
+        <dd>Represents a text field.</dd>
             <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Efortmeyer-Polar-Core-Parsers-Annotation-Constructor.html"><abbr title="\Efortmeyer\Polar\Core\Parsers\Annotation\Constructor">Constructor</abbr></a></dt>
         <dd>Use to parse an attribute&#039;s constructor.</dd>
             <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Efortmeyer-Polar-Core-Parsers-Annotation-ConstructorArgsNone.html"><abbr title="\Efortmeyer\Polar\Core\Parsers\Annotation\ConstructorArgsNone">ConstructorArgsNone</abbr></a></dt>
@@ -193,11 +221,15 @@ provided in the annotation or native attribute.</dd>
         <dd>An intermediate representation of a parsed attribute.</dd>
             <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Efortmeyer-Polar-Core-Parsers-Annotation-TypeTag.html"><abbr title="\Efortmeyer\Polar\Core\Parsers\Annotation\TypeTag">TypeTag</abbr></a></dt>
         <dd>Use to parse a constructor for a type tag and keyword expression.</dd>
-            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Efortmeyer-Polar-Core-Rendering-ContentTypes.html"><abbr title="\Efortmeyer\Polar\Core\Rendering\ContentTypes">ContentTypes</abbr></a></dt>
-        <dd>Contains a set of content types for files and streams.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Efortmeyer-Polar-Core-PropertyAnnotation.html"><abbr title="\Efortmeyer\Polar\Core\PropertyAnnotation">PropertyAnnotation</abbr></a></dt>
+        <dd>Provides a way to parse a class&#039;s property attributes.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Efortmeyer-Polar-Core-Rendering-HtmlEncoder.html"><abbr title="\Efortmeyer\Polar\Core\Rendering\HtmlEncoder">HtmlEncoder</abbr></a></dt>
+        <dd>Provides a way to sanitize a template&#039;s variables.</dd>
             <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Efortmeyer-Polar-Core-Rendering-Template.html"><abbr title="\Efortmeyer\Polar\Core\Rendering\Template">Template</abbr></a></dt>
         <dd>Provides a way to bind a template context&#039;s variables
 to a template file.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Efortmeyer-Polar-Stock-AppConfig-InMemoryAppConfig.html"><abbr title="\Efortmeyer\Polar\Stock\AppConfig\InMemoryAppConfig">InMemoryAppConfig</abbr></a></dt>
+        <dd>Provides an in memory interface for configuration the application.</dd>
             <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Efortmeyer-Polar-Stock-Attributes-AutomaticDateValue.html"><abbr title="\Efortmeyer\Polar\Stock\Attributes\AutomaticDateValue">AutomaticDateValue</abbr></a></dt>
         <dd>Use when an automatic date value should be used.</dd>
             <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Efortmeyer-Polar-Stock-Attributes-Column.html"><abbr title="\Efortmeyer\Polar\Stock\Attributes\Column">Column</abbr></a></dt>
@@ -230,8 +262,10 @@ default format.</dd>
             <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Efortmeyer-Polar-Stock-Attributes-DefaultMaxLength.html"><abbr title="\Efortmeyer\Polar\Stock\Attributes\DefaultMaxLength">DefaultMaxLength</abbr></a></dt>
         <dd>Use to validate that length of a field&#039;s value
 is not over the default max length.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Efortmeyer-Polar-Stock-Attributes-Defaults.html"><abbr title="\Efortmeyer\Polar\Stock\Attributes\Defaults">Defaults</abbr></a></dt>
+        <dd>Holds default configuration values.</dd>
             <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Efortmeyer-Polar-Stock-Attributes-Input.html"><abbr title="\Efortmeyer\Polar\Stock\Attributes\Input">Input</abbr></a></dt>
-        <dd>Configures a property to a given form control type.</dd>
+        <dd>Provides a way to configure objects using Attributes.</dd>
             <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Efortmeyer-Polar-Stock-Attributes-Label.html"><abbr title="\Efortmeyer\Polar\Stock\Attributes\Label">Label</abbr></a></dt>
         <dd>Configures the form label text of a property.</dd>
             <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Efortmeyer-Polar-Stock-Attributes-MaxLength.html"><abbr title="\Efortmeyer\Polar\Stock\Attributes\MaxLength">MaxLength</abbr></a></dt>
@@ -240,59 +274,14 @@ is not over the default max length.</dd>
         <dd>Provides `noop` validation.</dd>
             <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Efortmeyer-Polar-Stock-Attributes-TypeValidation.html"><abbr title="\Efortmeyer\Polar\Stock\Attributes\TypeValidation">TypeValidation</abbr></a></dt>
         <dd>Configures validation of the type of a property&#039;s value.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Efortmeyer-Polar-Stock-DataStorage-CsvFileStorage.html"><abbr title="\Efortmeyer\Polar\Stock\DataStorage\CsvFileStorage">CsvFileStorage</abbr></a></dt>
+        <dd>Use to interact with a CSV file&#039;s data.</dd>
             <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Efortmeyer-Polar-Stock-Validation-MaxLength.html"><abbr title="\Efortmeyer\Polar\Stock\Validation\MaxLength">MaxLength</abbr></a></dt>
         <dd>Provides a way to validate the maximum length of a field.</dd>
             <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Efortmeyer-Polar-Stock-Validation-Noop.html"><abbr title="\Efortmeyer\Polar\Stock\Validation\Noop">Noop</abbr></a></dt>
         <dd>Does no validation.</dd>
-            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Efortmeyer-Polar-Stock-Validation-ScalarTypes.html"><abbr title="\Efortmeyer\Polar\Stock\Validation\ScalarTypes">ScalarTypes</abbr></a></dt>
-        <dd>Contains a set of values representing scalar types.</dd>
             <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Efortmeyer-Polar-Stock-Validation-TypeValidation.html"><abbr title="\Efortmeyer\Polar\Stock\Validation\TypeValidation">TypeValidation</abbr></a></dt>
         <dd>Provides a way to validate a property&#039;s type.</dd>
-            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Efortmeyer-Polar-Stock-DataStorage-CsvFileStorage.html"><abbr title="\Efortmeyer\Polar\Stock\DataStorage\CsvFileStorage">CsvFileStorage</abbr></a></dt>
-        <dd>Use to interact with a CSV file&#039;s data.</dd>
-            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Efortmeyer-Polar-Core-Rendering-HtmlEncoder.html"><abbr title="\Efortmeyer\Polar\Core\Rendering\HtmlEncoder">HtmlEncoder</abbr></a></dt>
-        <dd>Provides a way to sanitize a template&#039;s variables.</dd>
-            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Efortmeyer-Polar-Api-UIElements-Messages.html"><abbr title="\Efortmeyer\Polar\Api\UIElements\Messages">Messages</abbr></a></dt>
-        <dd>Holds default message values.</dd>
-            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Efortmeyer-Polar-Core-Attributes-Attribute.html"><abbr title="\Efortmeyer\Polar\Core\Attributes\Attribute">Attribute</abbr></a></dt>
-        <dd>Provides a way to configure objects using Attributes.</dd>
-            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Efortmeyer-Polar-Core-Attributes-AttributeCollection.html"><abbr title="\Efortmeyer\Polar\Core\Attributes\AttributeCollection">AttributeCollection</abbr></a></dt>
-        <dd></dd>
-            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Efortmeyer-Polar-Core-Attributes-Config-AttributeConfig.html"><abbr title="\Efortmeyer\Polar\Core\Attributes\Config\AttributeConfig">AttributeConfig</abbr></a></dt>
-        <dd></dd>
-            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Efortmeyer-Polar-Core-Attributes-InputTypes.html"><abbr title="\Efortmeyer\Polar\Core\Attributes\InputTypes">InputTypes</abbr></a></dt>
-        <dd></dd>
-            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Efortmeyer-Polar-Core-Attributes-RequiredAttributeNotFoundException.html"><abbr title="\Efortmeyer\Polar\Core\Attributes\RequiredAttributeNotFoundException">RequiredAttributeNotFoundException</abbr></a></dt>
-        <dd></dd>
-            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Efortmeyer-Polar-Core-Entry.html"><abbr title="\Efortmeyer\Polar\Core\Entry">Entry</abbr></a></dt>
-        <dd>Represents an item in a collection or a row in a table.</dd>
-            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Efortmeyer-Polar-Core-Fields-AutomaticDateField.html"><abbr title="\Efortmeyer\Polar\Core\Fields\AutomaticDateField">AutomaticDateField</abbr></a></dt>
-        <dd>Represents a date field with and automatically
-generated value.</dd>
-            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Efortmeyer-Polar-Core-Fields-DateField.html"><abbr title="\Efortmeyer\Polar\Core\Fields\DateField">DateField</abbr></a></dt>
-        <dd>Represents a date field.</dd>
-            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Efortmeyer-Polar-Core-Fields-FieldMetadata.html"><abbr title="\Efortmeyer\Polar\Core\Fields\FieldMetadata">FieldMetadata</abbr></a></dt>
-        <dd>Provides metadata for a field.</dd>
-            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Efortmeyer-Polar-Core-Fields-FieldMetadataConfig.html"><abbr title="\Efortmeyer\Polar\Core\Fields\FieldMetadataConfig">FieldMetadataConfig</abbr></a></dt>
-        <dd>Configures metadata for a field.</dd>
-            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Efortmeyer-Polar-Core-Fields-FieldMetadataFactory.html"><abbr title="\Efortmeyer\Polar\Core\Fields\FieldMetadataFactory">FieldMetadataFactory</abbr></a></dt>
-        <dd></dd>
-            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Efortmeyer-Polar-Core-Fields-NumberField.html"><abbr title="\Efortmeyer\Polar\Core\Fields\NumberField">NumberField</abbr></a></dt>
-        <dd>Represents a number field.</dd>
-            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Efortmeyer-Polar-Core-Fields-TextAreaField.html"><abbr title="\Efortmeyer\Polar\Core\Fields\TextAreaField">TextAreaField</abbr></a></dt>
-        <dd>Represents a textarea field.</dd>
-            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Efortmeyer-Polar-Core-Fields-TextField.html"><abbr title="\Efortmeyer\Polar\Core\Fields\TextField">TextField</abbr></a></dt>
-        <dd>Represents a text field.</dd>
-            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Efortmeyer-Polar-Core-PropertyAnnotation.html"><abbr title="\Efortmeyer\Polar\Core\PropertyAnnotation">PropertyAnnotation</abbr></a></dt>
-        <dd>Provides a way to parse a class&#039;s property attributes.</dd>
-            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Efortmeyer-Polar-Stock-Attributes-Defaults.html"><abbr title="\Efortmeyer\Polar\Stock\Attributes\Defaults">Defaults</abbr></a></dt>
-        <dd>Holds default configuration values.</dd>
-            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Efortmeyer-Polar-Stock-Attributes-Messages.html"><abbr title="\Efortmeyer\Polar\Stock\Attributes\Messages">Messages</abbr></a></dt>
-        <dd>Contains text for messages.</dd>
-            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Efortmeyer-Polar-Api-Form.html"><abbr title="\Efortmeyer\Polar\Api\Form">Form</abbr></a></dt>
-        <dd>Represents an object used in a template.</dd>
-            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Efortmeyer-Polar-Stock-AppConfig-InMemoryAppConfig.html"><abbr title="\Efortmeyer\Polar\Stock\AppConfig\InMemoryAppConfig">InMemoryAppConfig</abbr></a></dt>
-        <dd>Provides an in memory interface for configuration the application.</dd>
     
     
     </dl>
